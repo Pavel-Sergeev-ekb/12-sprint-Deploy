@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: pablosergeev/delivery:v1.0.0
+          images: pablosergeev/delivery
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
